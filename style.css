@@ -51,5 +51,7 @@ tr:hover {
     background-color: #f6d4ff;
     border-radius: 5px;
     color: #9B25BE;
-    padding: 0 1em;
+    padding: 0 1em;    
+    border-color: #9B25BE;
+    border-style: solid;
 }

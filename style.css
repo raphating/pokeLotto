@@ -22,7 +22,7 @@ body {
 
 tr:hover {
     background-color: #9B25BE;
-    color: white;
+    color: #f6d4ff;
 }
 
 #pokeTable {
@@ -32,4 +32,24 @@ tr:hover {
 
 .uvaLogo {
     max-width: 10%;
+}
+
+.heavyBallRow {
+    text-decoration:none;
+    position:relative;
+}
+.heavyBallRow span {
+    display:none;
+}
+.heavyBallRow:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+}
+
+#heavyBallRow-tooltip-span {
+    background-color: #f6d4ff;
+    border-radius: 5px;
+    color: #9B25BE;
+    padding: 0 1em;
 }

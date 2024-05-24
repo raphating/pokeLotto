@@ -1,0 +1,35 @@
+body {
+    font-family: Nunito;
+    background-color: #f6d4ff;
+}
+
+#mainHeader > div > h1 {
+    font-weight: 900;
+    color: #9B25BE;
+}
+#mainHeader > div > h2 {
+    font-weight: 600;
+    color: #B685C5;
+}
+#mainHeader > div > h3 {
+    font-weight: 400;
+    color: #b41fa8;
+}
+
+.pokeTableData > img {
+    max-width: 50%;
+}
+
+tr:hover {
+    background-color: #9B25BE;
+    color: white;
+}
+
+#pokeTable {
+    color:#9B25BE;
+    font-size: 1.2em;
+}
+
+.uvaLogo {
+    max-width: 10%;
+}
